@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.navbar {
+    border-bottom: 3px solid #008ed6;
+    background: #292b2c;
+    opacity: 0.8;
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+.home h1 span{
+    font-weight: 400;
+}
+.home p{
+  margin-bottom: 35px;
+}
+#home{
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7),rgb(0, 0, 0, 0.7)), url(images/Home_bg.jpg);
+    background-position: center top;
+}
+.home .container {
+    padding-top:100px;
+}
+.container1{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.card-form input{
+    margin-bottom: 1.3rem;
+    padding:20px;
+    background-color: lightgray;
+    font-size:20px;
+}
+.card-form input:focus{
+    background-color: lightgray;
+}
+.card-form p{
+    font-size: 16px;
+    margin-top: 0;
+}
+.card-body{
+    background-color: #007bff;
+}
+.fa{
+    color: #007bff;
+    font-size: 2rem;
+    padding:5px;
+    margin-top: 10px;
+}
+#create .fa{
+    background-color: white;
+}
+.create, .share{
+    background-color: #007bff;
+}
+
+#review{
+    height: 500px;
+}
+#review img{
+    width:70px;
+}
+#contact,
+#share .fa,
+#explore .fa,
+#create{
+    color:white;
+    background-color: rgb(51, 51, 51);
+}
+
+.client-review{
+    height: 200px;
+    width:400px;
+    background:black;
+    position: relative;
+    border-radius: 10px;
+}
+.client-review .text-white{
+    margin:20px 50px;
+    font-size: 16px;
+    position: absolute;
+}
+.client-img{
+    position: absolute;
+    top:50%;
+    height:80px;
+    width:80px;
+    padding:5px;
+    background-image:linear-gradient(30deg,orange,yellow);
+    border-radius: 50%;
+    transform:translate(-49%,-168%);
+}
